@@ -82,3 +82,39 @@ body {
         width: 200px;
     }
 }
+
+/* ...existing code... */
+
+@media (max-width: 500px) {
+    .main {
+        width: 100vw;
+        height: 100vh;
+        min-width: unset;
+        padding: 32px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .info {
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .conteiner {
+        gap: 12px;
+    }
+
+    .conteiner>div {
+        width: 100%;
+    }
+
+    .pill {
+        padding: 8px 12px;
+    }
+
+    body {
+        padding: 0px;
+    }
+}
+
+/* ...existing code... */
